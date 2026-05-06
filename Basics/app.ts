@@ -52,3 +52,13 @@ addPerson({
     email : "example.com",
     password : '1234'
 })
+
+
+// interfaces extend
+interface Admin extends User{
+    admin : boolean;
+}
+
+// Type
+type myType = number | string
+let x: myType ;
